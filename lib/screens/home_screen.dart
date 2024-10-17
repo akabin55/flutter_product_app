@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
           children: [
             // รูปภาพจาก URL
             Image.network(
-              'https://lh3.googleusercontent.com/a/ACg8ocLU1PYyZEBmzxg94g3YKfAjgMy90gwijJ1JC418_-PItQTKW04=s288-c-no', // เปลี่ยนเป็น URL ของรูปที่คุณต้องการ
+              'https://lh3.googleusercontent.com/a/ACg8ocIJzep1Vn9n_0WMYc7BDzC95Ivh6khtxdpscW5Da4ARVTVeIw=s288-c-no', // เปลี่ยนเป็น URL ของรูปที่คุณต้องการ
               width: 150, // กำหนดความกว้างของรูป
               height: 150, // กำหนดความสูงของรูป
               loadingBuilder: (BuildContext context, Widget child,
@@ -39,7 +39,7 @@ class HomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20), // เว้นระยะห่างระหว่างรูปภาพและข้อความ
             const Text(
-              'กฤษดา สวาศรี 64010914607',
+              'เอกกบินทร์ บุตดาเพ็ง 64010914617',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 20), // เว้นระยะห่าง
